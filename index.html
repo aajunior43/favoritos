@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>Meus favoritos - Aleksandro Alves</title>
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="styles.css" rel="stylesheet" type="text/css"/></head>
+<body>
+<h1>Meus favoritos - Aleksandro Alves Da Rocha Junior</h1>
+<div class="button-grid">
+</div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        fetch('favorites.txt')
+            .then(response => response.text())
+            .then(data => {
+                const lines = data.trim().split('\n');
+                const buttonGrid = document.querySelector('.button-grid');
+                lines.forEach(line => {
+                    const [name, url] = line.split(',');
+                    const button = document.createElement('button');
+                    button.textContent = name;
+                    button.onclick = () => window.open(url, '_blank');
+                    buttonGrid.appendChild(button);
+                });
+            })
+            .catch(error => console.error('Error loading favorites:', error));
+    });
+</script>
+</body></html>
