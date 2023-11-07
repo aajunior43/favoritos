@@ -322,8 +322,8 @@ Vibx - Comprar e vender pelo telegram,https://www.marketplace.vibx.com.br/
 PI IA,https://pi.ai/talk
 Dispara Ai - Enviar mensagem em massa,https://app.dispara.ai/
 GOVIP - Ótimo site para Designer,https://govip.com.br/login
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
+PasteFo,https://paste.fo/
+Porn Store,https://pornstore.org/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
