@@ -298,6 +298,30 @@ Thinkdiffusion,https://www.thinkdiffusion.com/
 Scribd Downloader - Baixar arquivos do Scribd,https://docdownloader.com/
 Imgnai,https://app.imgnai.com/generate
 Archive,https://archive.org/
+Ifind - Consulta ilegal,https://i-find.org/
+Uploud de PDF para o GPT ler,https://aipdf.app/
+Vercel - Hospedar repositório do Github,https://vercel.com/
+Unicórnio Shop - Comprar contas premium,https://unicornshop.cc/
+HG Store 98 - Loja de uniforme de futebol,https://hgstore98.com/
+Pronto Mail - E-mail criptografado,https://mail.proton.me/
+Hispy - Ferramenta de espionagem,https://www.hispy.io/
+Exploit DB - Termos de Google Dorks,https://www.exploit-db.com/google-hacking-database
+Voice Clone - Dankicode,https://voiceclone.dankicode.ai/login.php
+Adarsus - Remover metadados,https://www.adarsus.com/en/remove-metadata-online-document-image-video
+Egirls - Onlyfans criados por IA,https://egirls.wtf/
+Painel Blaze IPTV - novo,https://painel.blaze.tv.br/index.php
+POE - Várias IAs,https://poe.com/chat/2nkam00wubbc92bnuz8
+Face Swapper,https://faceswapper.ai/swapper
+LensGO AI,https://lensgo.ai/
+Estica - Loja para vender camisetas,https://estica.com.br/
+Dólar Hoje,https://dolarhoje.com/
+Ideogram AI,https://ideogram.ai/t/trending
+G Prompter - Gerar Prompts,https://www.g-prompter.com/en/prompt/photo
+Heylink - Árvore de link,https://heylink.me/
+Vibx - Comprar e vender pelo telegram,https://www.marketplace.vibx.com.br/
+PI IA,https://pi.ai/talk
+Dispara Ai - Enviar mensagem em massa,https://app.dispara.ai/
+GOVIP - Ótimo site para Designer,https://govip.com.br/login
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
