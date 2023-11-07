@@ -296,7 +296,7 @@ ZapCloud - Disparos em massa,https://zapcloud.com.br/
 Maya IA,https://www.mayaai.net/
 Thinkdiffusion,https://www.thinkdiffusion.com/
 Scribd Downloader - Baixar arquivos do Scribd,https://docdownloader.com/
-Nome do site,https://www.coleolink.com/
+Imgnai,https://app.imgnai.com/generate
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
