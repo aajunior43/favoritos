@@ -325,7 +325,7 @@ GOVIP - Ótimo site para Designer,https://govip.com.br/login
 PasteFo,https://paste.fo/
 Porn Store,https://pornstore.org/
 User Drive - Upload,https://usersdrive.com/
-Nome do site,https://www.coleolink.com/
+Dditor de imagem com IA,https://avc.ai/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
