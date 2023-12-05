@@ -331,7 +331,7 @@ Modyfy IA,https://www.modyfi.com/
 Simples Scrapre GPT,https://simplescraper.io/scrapetoai/
 Topai - Melhores IAs,https://topai.tools/
 Agenda Hero - Adiciona seus afazeres no Google Agenda,https://agendahero.com/magic?utm_source=topai.tools&utm_medium=website_topai&utm_campaign=topai.tools
-Nome do site,https://www.coleolink.com/
+Kreai,https://www.krea.ai/home
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
