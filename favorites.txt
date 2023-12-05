@@ -336,7 +336,7 @@ Palavras Chave,https://keywordsheeter.com/
 DPI de imagens,https://convert-dpi.com/br/
 Nbox Ai - Varias LLMs,https://chat.nbox.ai
 Painel Estica - Vender Camisetas,painel.estica.com.br
-Nome do site,https://www.coleolink.com/
+Educafit - Curso de educação física,https://educafit.com.br/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
