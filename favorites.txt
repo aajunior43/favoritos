@@ -335,7 +335,7 @@ Kreai,https://www.krea.ai/home
 Palavras Chave,https://keywordsheeter.com/
 DPI de imagens,https://convert-dpi.com/br/
 Nbox Ai - Varias LLMs,https://chat.nbox.ai
-Nome do site,https://www.coleolink.com/
+Painel Estica - Vender Camisetas,painel.estica.com.br
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
