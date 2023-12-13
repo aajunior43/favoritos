@@ -337,8 +337,8 @@ DPI de imagens,https://convert-dpi.com/br/
 Nbox Ai - Varias LLMs,https://chat.nbox.ai
 Painel Estica - Vender Camisetas,painel.estica.com.br
 Educafit - Curso de educação física,https://educafit.com.br/
-Nome do site--style ChatGOT,https://start.chatgot.io/
-Nome do site,https://www.coleolink.com/
+ChatGOT,https://start.chatgot.io/
+Theb Ai,https://beta.theb.ai/home
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
