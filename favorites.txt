@@ -339,7 +339,7 @@ Painel Estica - Vender Camisetas,painel.estica.com.br
 Educafit - Curso de educação física,https://educafit.com.br/
 ChatGOT,https://start.chatgot.io/
 Theb Ai,https://beta.theb.ai/home
-Nome do site,https://www.coleolink.com/
+Cg Dream,https://cgdream.ai/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
