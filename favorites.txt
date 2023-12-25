@@ -342,7 +342,7 @@ Theb Ai,https://beta.theb.ai/home
 Cg Dream,https://cgdream.ai/
 Pandora Box,https://www.pandorasbox.ai/nsfw
 Product Hunt,https://www.producthunt.com/
-Nome do site,https://www.coleolink.com/
+Pixio,https://pixio.myapps.ai/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
