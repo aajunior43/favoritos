@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>Meus favoritos - Aleksandro Alves</title>
-
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="width=device-width, initial-scale=1" name="viewport"/><style>body {
-    background-color: #f0f0f0; /* Fundo preto */
-    color: #003366; /* Texto rosa */
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Meus favoritos - Aleksandro Alves</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<style>
+body {
+    background-color: #0a0a0a; /* Fundo escuro */
+    color: #39ff14; /* Texto em neon verde */
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 20px;
 }
 
 h1 {
-    color: #003366; /* Rosa */
+    color: #ff0090; /* Rosa neon */
     font-size: 36px;
     text-align: center;
     padding: 20px;
@@ -29,15 +31,15 @@ h1 {
 }
 
 button {
-    background-color: #003366; /* Fundo do botão rosa */
-    color: #f0f0f0; /* Texto preto */
+    background-color: #1e00ff; /* Fundo do botão em azul neon */
+    color: #ff0090; /* Texto em rosa neon */
     padding: 15px 25px;
-    border: 4px solid #f0f0f0; /* Contorno preto */
+    border: 4px solid #39ff14; /* Contorno em neon verde */
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
-    flex: 1 1 calc(25% - 20px); /* Distribuição flexível para responsividade */
+    flex: 1 1 calc(25% - 20px);
     margin: 10px;
     text-align: center;
     overflow: hidden;
@@ -46,21 +48,21 @@ button {
 }
 
 button:hover {
-    background-color: #f0f0f0; /* Fundo do botão preto no hover */
-    color: #003366; /* Texto rosa no hover */
+    background-color: #ff0090; /* Fundo do botão rosa neon no hover */
+    color: #1e00ff; /* Texto azul neon no hover */
 }
 
 /* Regras de mídia para adaptar o layout em telas menores */
 @media only screen and (max-width: 800px) {
     button {
-        flex: 1 1 calc(50% - 20px); /* 2 botões por linha */
+        flex: 1 1 calc(50% - 20px);
     }
 }
 
 @media only screen and (max-width: 500px) {
     button {
-        flex: 1 1 calc(100% - 20px); /* 1 botão por linha */
-        font-size: 14px; /* Tamanho de fonte menor */
+        flex: 1 1 calc(100% - 20px);
+        font-size: 14px;
     }
 }
 
@@ -76,7 +78,8 @@ button:hover {
         gap: 10px;
     }
 }
-</style></head>
+</style>
+</head>
 <body>
 <h1>Meus favoritos - Aleksandro Alves Da Rocha Junior</h1>
 <div class="button-grid">
@@ -99,4 +102,5 @@ button:hover {
             .catch(error => console.error('Error loading favorites:', error));
     });
 </script>
-</body></html>
+</body>
+</html>
