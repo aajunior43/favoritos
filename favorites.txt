@@ -344,7 +344,7 @@ Pandora Box,https://www.pandorasbox.ai/nsfw
 Product Hunt,https://www.producthunt.com/
 Pixio,https://pixio.myapps.ai/
 Mylens,https://mylens.ai/
-Nome do site,https://www.coleolink.com/
+Squaad Ai,https://squaadai.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
