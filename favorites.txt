@@ -345,11 +345,11 @@ Product Hunt,https://www.producthunt.com/
 Pixio,https://pixio.myapps.ai/
 Mylens,https://mylens.ai/
 Squaad Ai,https://squaadai.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
+Guinness,https://www.guinnessworldrecords.com.br/
+Download videos Youtube,https://www.downloadbazar.com/
+TTS Openai,https://huggingface.co/spaces/ysharma/OpenAI_TTS_New
+Suno AI,https://www.suno.ai/
+Midjourney Stats,https://midjourneystats.com/?tz_offset=-300
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
