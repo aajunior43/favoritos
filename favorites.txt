@@ -349,9 +349,9 @@ Guinness,https://www.guinnessworldrecords.com.br/
 Download videos Youtube,https://www.downloadbazar.com/
 TTS Openai,https://huggingface.co/spaces/ysharma/OpenAI_TTS_New
 Suno AI,https://www.suno.ai/
-Midjourney Stats,https://midjourneystats.com/?tz_offset=-300
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
+Midjourney Stats,https://midjourneystats.com/
+Aitoptools,https://aitoptools.com/
+Producthunt,https://www.producthunt.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
