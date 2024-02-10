@@ -51,7 +51,7 @@
         }
         button:hover {
             background-color: var(--button-hover-bg-color);
-            color: #ffffff; /* Texto branco para contraste no hover */
+            color: #ffffff;
         }
         @media only screen and (max-width: 800px) {
             button {
@@ -62,18 +62,6 @@
             button {
                 flex: 1 1 calc(100% - 20px);
                 font-size: 14px;
-            }
-        }
-        @media only screen and (max-width: 600px) {
-            body {
-                padding: 10px;
-            }
-            header h1 {
-                font-size: 28px;
-            }
-            .button-grid {
-                flex-direction: column;
-                gap: 10px;
             }
         }
     </style>
@@ -95,11 +83,15 @@
                     const lines = data.trim().split('\\n');
                     const buttonGrid = document.querySelector('.button-grid');
                     lines.forEach(line => {
-                        const [name, url] = line.split(',');
-                        const button = document.createElement('button');
-                        button.textContent = name.trim();
-                        button.onclick = () => window.open(url.trim(), '_blank');
-                        buttonGrid.appendChild(button);
+                        const parts = line.split(',').map(part => part.trim());
+                        if(parts.length >= 2) {
+                            const name = parts[0];
+                            const url = parts[1];
+                            const button = document.createElement('button');
+                            button.textContent = name;
+                            button.onclick = () => window.open(url, '_blank');
+                            buttonGrid.appendChild(button);
+                        }
                     });
                 })
                 .catch(error => console.error('Error loading favorites:', error));
