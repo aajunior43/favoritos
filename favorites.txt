@@ -352,7 +352,7 @@ Suno AI,https://www.suno.ai/
 Midjourney Stats,https://midjourneystats.com/
 Aitoptools,https://aitoptools.com/
 Producthunt,https://www.producthunt.com/
-Nome do site,https://www.coleolink.com/
+Shakker ai,https://www.shakker.ai/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
