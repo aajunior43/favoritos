@@ -3,22 +3,31 @@
 <head>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Meus favoritos - Aleksandro Alves</title>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
 <style>
-body {
-    background-color: #f5f5dc; /* Fundo bege claro */
-    color: #5b422a; /* Texto marrom escuro */
+body, .night-mode {
+    background-color: #f5f5dc; /* Fundo bege claro para o modo livro antigo */
+    color: #5b422a; /* Texto marrom escuro para o modo livro antigo */
+    transition: background-color 0.3s, color 0.3s;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 20px;
 }
+.night-mode {
+    background-color: #121212; /* Fundo cinza escuro para o modo noturno */
+    color: #00ffea; /* Texto em azul-turquesa neon para o modo noturno */
+}
 
+h1, .night-mode h1 {
+    transition: color 0.3s;
+}
 h1 {
-    color: #8b4513; /* Marrom mais escuro */
+    color: #8b4513; /* Marrom mais escuro para o modo livro antigo */
     font-size: 36px;
     text-align: center;
     padding: 20px;
+}
+.night-mode h1 {
+    color: #ff2079; /* Rosa claro neon para o modo noturno */
 }
 
 .search-bar {
@@ -44,15 +53,12 @@ h1 {
     max-width: 1000px;
 }
 
-button {
-    background-color: #deb887; /* Fundo do botão bege */
-    color: #5b422a; /* Texto marrom escuro */
+button, .night-mode button {
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     padding: 15px 25px;
-    border: 2px solid #8b4513; /* Contorno marrom */
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
     flex: 1 1 calc(25% - 20px);
     margin: 10px;
     text-align: center;
@@ -60,10 +66,36 @@ button {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+button {
+    background-color: #deb887; /* Bege para o modo livro antigo */
+    color: #5b422a; /* Marrom escuro para o modo livro antigo */
+    border: 2px solid #8b4513; /* Contorno marrom para o modo livro antigo */
+}
+.night-mode button {
+    background-color: #7700ff; /* Roxo neon para o modo noturno */
+    color: #00ffea; /* Azul-turquesa neon para o modo noturno */
+    border: 2px solid #ff2079; /* Rosa claro neon para o modo noturno */
+}
 
-button:hover {
-    background-color: #8b4513; /* Fundo do botão marrom escuro no hover */
-    color: #f5f5dc; /* Texto bege claro no hover */
+button:hover, .night-mode button:hover {
+    background-color: #8b4513; /* Marrom escuro no hover para o modo livro antigo */
+    color: #f5f5dc; /* Bege claro no hover para o modo livro antigo */
+}
+.night-mode button:hover {
+    background-color: #ff2079; /* Rosa claro neon no hover para o modo noturno */
+    color: #7700ff; /* Roxo neon no hover para o modo noturno */
+}
+
+.mode-switch {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f0e68c; /* Cor de fundo para o botão de alternância */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 16px; /* Tamanho da fonte */
 }
 
 /* Regras de mídia para adaptar o layout em telas menores */
@@ -98,6 +130,7 @@ button:hover {
 </style>
 </head>
 <body>
+<div class="mode-switch">Modo Noturno</div>
 <h1>Meus favoritos - Aleksandro Alves Da Rocha Junior</h1>
 <div class="search-bar">
     <input type="text" class="search-input" placeholder="Pesquisar favoritos...">
@@ -106,6 +139,12 @@ button:hover {
 </div>
 <script>
     window.addEventListener('DOMContentLoaded', (event) => {
+        const modeSwitch = document.querySelector('.mode-switch');
+        modeSwitch.addEventListener('click', () => {
+            document.body.classList.toggle('night-mode');
+            modeSwitch.textContent = document.body.classList.contains('night-mode') ? 'Modo Livro Antigo' : 'Modo Noturno';
+        });
+
         fetch('favorites.txt')
             .then(response => response.text())
             .then(data => {
