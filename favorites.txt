@@ -354,9 +354,23 @@ Aitoptools,https://aitoptools.com/
 Producthunt,https://www.producthunt.com/
 Shakker ai,https://www.shakker.ai/
 Glif,https://glif.app/glifs
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
+Claude AI,https://claude.ai/chats
+Pikaso,https://www.freepik.com/pikaso
+Estante virtual,https://www.estantevirtual.com.br/
+Biblioteca PN,https://www.tblop.com/
+Prompt Midjourney,https://artificin.com/prompt-builder
+Grupos discord,https://disboard.org/pt-pt
+Erome PN,https://www.erome.com/
+Papelaria Unicornio,https://papelariaunicornio.com.br/
+Traduzir PDF,https://translate.google.com/?sl=en&tl=pt&op=docs
+Love PDF,https://www.ilovepdf.com/pt
+Portion,https://portions-b809c128e647.herokuapp.com/
+Videohighlight,https://videohighlight.com/
+Programiz,https://www.programiz.com/html/online-compiler/
+Jornal o regional,https://www2.oregionaljornal.com.br/
+Typingmind,https://www.typingmind.com/
+Gpte,https://gpte.ai/
+Loja PN vibx,https://marketplace.vibx.com.br/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
