@@ -7,18 +7,32 @@
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <style>
 body {
-    background-color: #f4f1de; /* Fundo bege suave, papel envelhecido */
-    color: #5a4a42; /* Texto em marrom escuro */
+    background-color: #f5f5dc; /* Fundo bege claro */
+    color: #5b422a; /* Texto marrom escuro */
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 20px;
 }
 
 h1 {
-    color: #8b6453; /* Marrom mais escuro, tinta desbotada */
+    color: #8b4513; /* Marrom mais escuro */
     font-size: 36px;
     text-align: center;
     padding: 20px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 50%;
+    border-radius: 8px;
+    border: 1px solid #8b4513;
 }
 
 .button-grid {
@@ -31,10 +45,10 @@ h1 {
 }
 
 button {
-    background-color: #e4d7c5; /* Fundo pergaminho */
-    color: #5a4a42; /* Texto em marrom escuro */
+    background-color: #deb887; /* Fundo do botão bege */
+    color: #5b422a; /* Texto marrom escuro */
     padding: 15px 25px;
-    border: 2px solid #8b6453; /* Contorno em marrom */
+    border: 2px solid #8b4513; /* Contorno marrom */
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
@@ -48,8 +62,8 @@ button {
 }
 
 button:hover {
-    background-color: #8b6453; /* Fundo marrom escuro no hover */
-    color: #e4d7c5; /* Texto pergaminho no hover */
+    background-color: #8b4513; /* Fundo do botão marrom escuro no hover */
+    color: #f5f5dc; /* Texto bege claro no hover */
 }
 
 /* Regras de mídia para adaptar o layout em telas menores */
@@ -77,11 +91,17 @@ button:hover {
         flex-direction: column;
         gap: 10px;
     }
+    .search-input {
+        width: 80%;
+    }
 }
 </style>
 </head>
 <body>
 <h1>Meus favoritos - Aleksandro Alves Da Rocha Junior</h1>
+<div class="search-bar">
+    <input type="text" class="search-input" placeholder="Pesquisar favoritos...">
+</div>
 <div class="button-grid">
 </div>
 <script>
@@ -91,12 +111,25 @@ button:hover {
             .then(data => {
                 const lines = data.trim().split('\n');
                 const buttonGrid = document.querySelector('.button-grid');
+                const searchInput = document.querySelector('.search-input');
+                let buttons = [];
+
                 lines.forEach(line => {
                     const [name, url] = line.split(',');
                     const button = document.createElement('button');
                     button.textContent = name;
+                    button.dataset.name = name.toLowerCase();
                     button.onclick = () => window.open(url, '_blank');
                     buttonGrid.appendChild(button);
+                    buttons.push(button);
+                });
+
+                searchInput.addEventListener('input', () => {
+                    const searchTerm = searchInput.value.toLowerCase();
+                    buttons.forEach(button => {
+                        const isVisible = button.dataset.name.includes(searchTerm);
+                        button.style.display = isVisible ? 'block' : 'none';
+                    });
                 });
             })
             .catch(error => console.error('Error loading favorites:', error));
