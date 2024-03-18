@@ -372,7 +372,7 @@ Typingmind,https://www.typingmind.com/
 Gpte,https://gpte.ai/
 Loja PN vibx,https://marketplace.vibx.com.br/
 Baixar Scribd,https://scribd.vpdfs.com/
-Nome do site,https://www.coleolink.com/
+Pocket,https://getpocket.com/pt/saves
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
