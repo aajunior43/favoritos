@@ -373,6 +373,23 @@ Gpte,https://gpte.ai/
 Loja PN vibx,https://marketplace.vibx.com.br/
 Baixar Scribd,https://scribd.vpdfs.com/
 Pocket,https://getpocket.com/pt/saves
+Extensão Top,https://fastforward.team/
+Consensus,https://consensus.app/
+Typeset,https://typeset.io/
+Groq,https://groq.com/
+Agents,https://agents.rolemodel.ai/login
+Criador de prompt,https://seu.design/
+Docs estilo midjournet,https://docs.google.com/spreadsheets/u/0/d/1h6H2CqjLdZMbLjlz6EHwemfO4fkIzAfWtjRAMSa2KHE/htmlview?pli=1&utm
+Prompt Helper Midjourney,https://midjourney-prompt-helper.netlify.app/
+Arthub,https://arthub.ai/
+Midjourney Style,https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference/blob/main/Pages/MJ_V4/Style_Pages/Just_The_Style/Design_Styles.md
+Tune Chat,https://chat.tune.app/
+Biblioteca de GPTs,https://gptsdex.com/
+Stable diffusion CheatSheet,https://supagruen.github.io/StableDiffusion-CheatSheet/
+Mistral,https://auth.mistral.ai/ui/login
+Nome do site,https://www.coleolink.com/
+Nome do site,https://www.coleolink.com/
+Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
