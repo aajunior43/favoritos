@@ -387,17 +387,17 @@ Tune Chat,https://chat.tune.app/
 Biblioteca de GPTs,https://gptsdex.com/
 Stable diffusion CheatSheet,https://supagruen.github.io/StableDiffusion-CheatSheet/
 Mistral,https://auth.mistral.ai/ui/login
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
+Caça style,https://glif.app/@fab1an/glifs/clska7jpn002u132h3zjl0m9v
+Printwhatyoulike,https://www.printwhatyoulike.com/home/index
+Glbgpt,https://glbgpt.com/mChatGpt
+Oksuro,https://oksuro.com/
+Gov assinatura eletronica,https://www.gov.br/governodigital/pt-br/identidade/assinatura-eletronica
+Apob,https://beta.apob.ai/
+You IA,https://you.com/
+Stylar,https://www.stylar.ai/
+Status Midjourney,https://status.midjourney.com/
+Prompts Ideas,https://promptsideas.com/
+Turbo Scribe AI,https://turboscribe.ai/dashboard
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
