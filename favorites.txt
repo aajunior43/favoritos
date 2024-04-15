@@ -398,9 +398,9 @@ Stylar,https://www.stylar.ai/
 Status Midjourney,https://status.midjourney.com/
 Prompts Ideas,https://promptsideas.com/
 Turbo Scribe AI,https://turboscribe.ai/dashboard
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
+Downdetector,https://downdetector.com.br/
+TopGG,https://top.gg/
+Promptlibrary,https://promptlibrary.org/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
