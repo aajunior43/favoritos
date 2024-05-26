@@ -407,14 +407,14 @@ Lummi,https://www.lummi.ai/
 Ytscribe,https://ytscribe.com/
 Caractere invisível,https://fabricioventura.com/caractere?utm_source=pocket_saves
 Aistudio,https://aistudio.google.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
+Mallow,https://mallow.ai/
+Udio,https://www.udio.com/
+Mymemo,https://app.mymemo.ai/
+Midgenai,https://www.midgenai.com/
+Recraft,https://www.recraft.ai/
+Breakerfollow,https://www.breakerfollow.com/
+Zero-gpu-spaces,https://huggingface.co/spaces/enzostvs/zero-gpu-spaces?utm_source=pocket_saves
+Abacus AI,https://apps.abacus.ai/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
