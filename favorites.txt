@@ -401,6 +401,21 @@ Turbo Scribe AI,https://turboscribe.ai/dashboard
 Downdetector,https://downdetector.com.br/
 TopGG,https://top.gg/
 Promptlibrary,https://promptlibrary.org/
+Promeai,https://www.promeai.pro/
+Reka,https://chat.reka.ai/auth/login
+Lummi,https://www.lummi.ai/
+Ytscribe,https://ytscribe.com/
+Caractere invisível,https://fabricioventura.com/caractere?utm_source=pocket_saves
+Aistudio,https://aistudio.google.com/
+Nome do site,https://www.coleolink.com/
+Nome do site,https://www.coleolink.com/
+Nome do site,https://www.coleolink.com/
+Nome do site,https://www.coleolink.com/
+Nome do site,https://www.coleolink.com/
+Nome do site,https://www.coleolink.com/
+Nome do site,https://www.coleolink.com/
+Nome do site,https://www.coleolink.com/
+Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
