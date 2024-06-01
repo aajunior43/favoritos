@@ -415,6 +415,18 @@ Recraft,https://www.recraft.ai/
 Breakerfollow,https://www.breakerfollow.com/
 Zero-gpu-spaces,https://huggingface.co/spaces/enzostvs/zero-gpu-spaces?utm_source=pocket_saves
 Abacus AI,https://apps.abacus.ai/
+Status invest,https://statusinvest.com.br/
+Investidor 10,https://investidor10.com.br/
+Topinvest simulados,https://simulados.topinvest.com.br/
+Whimsical,https://whimsical.com
+Markmap,https://markmap.js.org/repl
+Phind,https://www.phind.com
+Make,https://www.make.com
+Zapier,https://zapier.com
+Nome do site,https://www.coleolink.com/
+Nome do site,https://www.coleolink.com/
+Nome do site,https://www.coleolink.com/
+Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
