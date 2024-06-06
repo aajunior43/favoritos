@@ -425,7 +425,7 @@ Make,https://www.make.com
 Zapier,https://zapier.com
 Labs perplexity,https://labs.perplexity.ai/
 Git Mind,https://gitmind.com/pt/
-Nome do site,https://www.coleolink.com/
+Lmsys Arena Chatbot,https://chat.lmsys.org/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
