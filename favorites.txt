@@ -423,8 +423,8 @@ Markmap,https://markmap.js.org/repl
 Phind,https://www.phind.com
 Make,https://www.make.com
 Zapier,https://zapier.com
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
+Labs perplexity,https://labs.perplexity.ai/
+Git Mind,https://gitmind.com/pt/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
