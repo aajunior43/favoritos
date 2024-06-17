@@ -429,7 +429,7 @@ Lmsys Arena Chatbot,https://chat.lmsys.org/
 Invideo AI,https://invideo.io/ai/
 Mapify,https://mapify.so/
 Tost,https://tost.ai/
-Nome do site,https://www.coleolink.com/
+Role model,https://chat.rolemodel.ai/c/new
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
 Nome do site,https://www.coleolink.com/
