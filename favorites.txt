@@ -20,7 +20,7 @@ DreamStudio - Gerador de imagem,https://stabilityai.us.auth0.com/u/login
 Videoder - App de baixar videos,https://www.videoder.com/pt
 Extrator de Imagens - Baixar todas imagens de um site,https://pt.rakko.tools/tools/56/
 Bitly 0 Encurtador de URL,https://bityli.com/
-BotoStore - Melhores bots do Telegram,https://botostore.com/
+BotoStore - Melhores bots,https://botostore.com/
 Just Delete Me - Como deletar contas de diversos sites,https://backgroundchecks.org/justdeleteme/
 Wayback Machine - Arquivos de sites,https://web.archive.org/
 Deepl Translator - Melhor tradutor,https://www.deepl.com/pt-BR/translator
@@ -413,7 +413,7 @@ Mymemo,https://app.mymemo.ai/
 Midgenai,https://www.midgenai.com/
 Recraft,https://www.recraft.ai/
 Breakerfollow,https://www.breakerfollow.com/
-Zero-gpu-spaces,https://huggingface.co/spaces/enzostvs/zero-gpu-spaces?utm_source=pocket_saves
+Zero-gpu-s,https://huggingface.co/spaces/enzostvs/zero-gpu-spaces?utm_source=pocket_saves
 Abacus AI,https://apps.abacus.ai/
 Status invest,https://statusinvest.com.br/
 Investidor 10,https://investidor10.com.br/
@@ -430,14 +430,79 @@ Invideo AI,https://invideo.io/ai/
 Mapify,https://mapify.so/
 Tost,https://tost.ai/
 Role model,https://chat.rolemodel.ai/c/new
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
-Nome do site,https://www.coleolink.com/
+Llama coder,https://llamacoder.together.ai/
+Giz AI,https://app.giz.ai/
+Openai TSS,https://platform.openai.com/playground/tts?utm_source=pocket_saves
+Style Midjourney,https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference?utm_source=pocket_shared
+Pix Verse,https://app.pixverse.ai/
+Scribd download,https://scribd.vpdfs.com/
+Similar sites,https://www.similarsites.com/
+Lovable,https://lovable.dev/login?redirect=%2Fprojects%2F95b6cf99-6386-4ef2-ae14-ed6598a55145
+Artflow,https://app.artflow.ai/
+Deepseek,https://chat.deepseek.com/
+Mistral,https://auth.mistral.ai/
+Liquid AI,https://playground.liquid.ai/login
+Inner AI,https://platform.innerai.com/
+Dzine,https://www.dzine.ai/
+Fliki,https://fliki.ai/
+Piclumen,https://www.piclumen.com/
+Meta AI,https://www.meta.ai/
+Nvidia nemotron,https://build.nvidia.com/nvidia/llama-3_1-nemotron-70b-instruct?utm_source=pocket_saves
+Superporn,https://www.superporn.com/pornstars?
+Tubepornstars,https://www.tubepornstars.com/pt-br/
+Pornstars,https://pornstars.tube/
+Hailuoai,https://hailuoai.video/
+Adapta,https://adapta.org/
+Assoass,https://www.assoass.com/pt-br/category/anal
+Toppornsites,https://toppornsites.com/
+Findtubes,https://www.findtubes.com/pt-br/category/anal
+Adobe - Comprimir PDF,https://www.adobe.com/br/acrobat/online/compress-pdf.html
+Promptperfect,https://promptperfect.jina.ai/
+Hotshot,https://hotshot.co/
+Profundo,https://www.profundo.app/
+Gofretes,https://gofretes.com.br/
+Ai music,https://aimusic.so/
+Freeflo,https://freeflo.ai/
+Prompter,https://prompter.fofr.a
+Felo AI,https://felo.ai/search
+Basedlabs,https://www.basedlabs.ai/generate
+Together AI,https://api.together.ai/signin
+Color IO,https://app.color.io/
+LM Arena,https://lmarena.ai/
+Notebook LM,https://notebooklm.google.com/
+Name that pornstar,https://namethatpornstar.com/
+Fap folder,https://fapfolder.club/
+Telegra,https://telegra.ph/
+EGP TCE,https://egp.tce.pr.gov.br/
+Instituto Federal do Rio Grande do Sul - Cursos,https://moodle.ifrs.edu.br/
+Ttsopenai,https://ttsopenai.com/
+TCE ENTIDADE,https://servicos.tce.pr.gov.br/tcepr/tribunal/relacon/Entidade
+SENADO Cursos,https://saberes.senado.leg.br/
+Websim,https://websim.ai/
+Pornpics,https://www.pornpics.com/
+Findtubes,https://www.findtubes.com/pt-br/
+Vidu,https://www.vidu.studio/
+Lumalabs,https://lumalabs.ai/
+arxiv,https://arxiv.org/
+Pomodoro timer,https://app.pomodorotimer.online/pt
+V0,https://v0.dev/
+Tool finder,https://toolfinder.co/
+Deep swapper,https://www.deepswapper.com/
+Face swapper,https://faceswapper.ai
+Teradownloader,https://teradownloader.com
+Hailuoai,https://hailuoai.com/
+Markdown to pdf,https://www.markdowntopdf.com/
+Preciso imprimir,https://precisoimprimir.com.br/
+Raidrive,https://www.raidrive.com/
+Chatplayground,https://app.chatplayground.ai/
+Omnigpt,https://app.omnigpt.co/
+Recraft,https://www.recraft.ai/
+Promptlibrary,https://promptlibrary.org/
+Vizard,https://vizard.ai/
+Download Terabox,https://terabox.hnn.workers.dev/
+DNS Adguard,https://auth.adguard.com/login.html
+Poppop AI,https://poppop.ai/
+Komo AI,https://komo.ai/
+Promptsideas,https://promptsideas.com/
+Mymemo,https://app.mymemo.ai/
+Reka AI,https://chat.reka.ai/chat
