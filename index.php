@@ -38,6 +38,8 @@
         <div class="modal-content">
             <h2>Editar Link</h2>
             <form id="editForm">
+                <input type="hidden" id="oldName">
+                <input type="hidden" id="oldUrl">
                 <div class="form-group">
                     <label for="editName">Nome:</label>
                     <input type="text" id="editName" required>
@@ -63,6 +65,8 @@
         document.getElementById('editModal').style.display = 'flex';
         document.getElementById('editName').value = name;
         document.getElementById('editUrl').value = url;
+        document.getElementById('oldName').value = name;
+        document.getElementById('oldUrl').value = url;
         document.getElementById('editPassword').value = '';
     }
 
@@ -96,8 +100,8 @@
     document.getElementById('editForm').addEventListener('submit', function(e) {
         e.preventDefault();
         const formData = {
-            oldName: document.getElementById('editName').getAttribute('data-original'),
-            oldUrl: document.getElementById('editUrl').getAttribute('data-original'),
+            oldName: document.getElementById('oldName').value,
+            oldUrl: document.getElementById('oldUrl').value,
             name: document.getElementById('editName').value,
             url: document.getElementById('editUrl').value,
             password: document.getElementById('editPassword').value
