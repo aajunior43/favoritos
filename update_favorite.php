@@ -3,6 +3,15 @@ header('Content-Type: application/json');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $data = json_decode(file_get_contents('php://input'), true);
+    $password = isset($data['password']) ? $data['password'] : '';
+    
+    // Senha definida (você deve alterar isto para uma senha mais segura)
+    $correct_password = "123456";
+    
+    if ($password !== $correct_password) {
+        echo json_encode(['success' => false, 'error' => 'Senha incorreta']);
+        exit;
+    }
     
     if (isset($data['oldName']) && isset($data['oldUrl']) && 
         isset($data['newName']) && isset($data['newUrl'])) {
