@@ -13,22 +13,35 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     if (isset($data['oldName']) && isset($data['oldUrl']) && isset($data['name']) && isset($data['url'])) {
+        // Validar URL
+        if (!filter_var($data['url'], FILTER_VALIDATE_URL)) {
+            echo json_encode(['success' => false, 'error' => 'URL inválida']);
+            exit;
+        }
+        
         $content = file_get_contents('favorites.txt');
         $lines = explode("\n", $content);
+        $new_content = [];
         $updated = false;
         
-        foreach ($lines as &$line) {
+        foreach ($lines as $line) {
+            if (trim($line) === "") {
+                $new_content[] = $line;
+                continue;
+            }
+            
             if (trim($line) === $data['oldName'] . "," . $data['oldUrl']) {
-                $line = $data['name'] . "," . $data['url'];
+                $new_content[] = $data['name'] . "," . $data['url'];
                 $updated = true;
-                break;
+            } else {
+                $new_content[] = $line;
             }
         }
         
-        if ($updated && file_put_contents('favorites.txt', implode("\n", $lines)) !== false) {
+        if ($updated && file_put_contents('favorites.txt', implode("\n", $new_content)) !== false) {
             echo json_encode(['success' => true]);
         } else {
-            echo json_encode(['success' => false, 'error' => 'Erro ao atualizar arquivo']);
+            echo json_encode(['success' => false, 'error' => 'Erro ao atualizar arquivo ou item não encontrado']);
         }
     } else {
         echo json_encode(['success' => false, 'error' => 'Dados inválidos']);
