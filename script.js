@@ -89,8 +89,9 @@ function closeForm() {
 function saveNewLink() {
     const name = document.getElementById('linkName').value.trim();
     const url = document.getElementById('linkUrl').value.trim();
+    const password = document.getElementById('addPassword').value;
     
-    if (!name || !url) {
+    if (!name || !url || !password) {
         showMessage('Preencha todos os campos', 'error');
         return;
     }
@@ -100,7 +101,7 @@ function saveNewLink() {
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ name, url })
+        body: JSON.stringify({ name, url, password })
     })
     .then(response => response.json())
     .then(data => {

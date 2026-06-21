@@ -1,8 +1,10 @@
 <?php
 header('Content-Type: application/json');
+require_once __DIR__ . '/config.php';
+ensureFavoritesFile();
 
 // Verificar se o arquivo de favoritos existe
-if (!file_exists('favorites.txt')) {
+if (!file_exists(FAVORITES_FILE)) {
     echo json_encode([
         'success' => true,
         'favorites' => []
@@ -11,7 +13,7 @@ if (!file_exists('favorites.txt')) {
 }
 
 // Ler o arquivo de favoritos
-$content = file_get_contents('favorites.txt');
+$content = file_get_contents(FAVORITES_FILE);
 $lines = explode("\n", $content);
 $favorites = [];
 

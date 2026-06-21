@@ -1,16 +1,11 @@
 <?php
 header('Content-Type: application/json');
+require_once __DIR__ . '/config.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $data = json_decode(file_get_contents('php://input'), true);
-    $password = isset($data['password']) ? $data['password'] : '';
-    
-    $correct_password = "123456";
-    
-    if ($password !== $correct_password) {
-        echo json_encode(['success' => false, 'error' => 'Senha incorreta']);
-        exit;
-    }
+    requireWritePassword($data ?: []);
+    ensureFavoritesFile();
 
     if (isset($data['oldName']) && isset($data['oldUrl']) && isset($data['name']) && isset($data['url'])) {
         // Validar URL
@@ -19,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             exit;
         }
         
-        $content = file_get_contents('favorites.txt');
+        $content = file_get_contents(FAVORITES_FILE);
         $lines = explode("\n", $content);
         $new_content = [];
         $updated = false;
@@ -38,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
         }
         
-        if ($updated && file_put_contents('favorites.txt', implode("\n", $new_content)) !== false) {
+        if ($updated && file_put_contents(FAVORITES_FILE, implode("\n", $new_content), LOCK_EX) !== false) {
             echo json_encode(['success' => true]);
         } else {
             echo json_encode(['success' => false, 'error' => 'Erro ao atualizar arquivo ou item não encontrado']);

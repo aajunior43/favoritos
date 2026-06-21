@@ -1,8 +1,11 @@
 <?php
 header('Content-Type: application/json');
+require_once __DIR__ . '/config.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $data = json_decode(file_get_contents('php://input'), true);
+    requireWritePassword($data ?: []);
+    ensureFavoritesFile();
     
     if (isset($data['name']) && isset($data['url'])) {
         // Validar URL
@@ -16,12 +19,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $url = filter_var($data['url'], FILTER_SANITIZE_URL);
         
         // Verificar/criar arquivo
-        if (!file_exists('favorites.txt')) {
-            file_put_contents('favorites.txt', '');
-        }
-
         // Ler o conteúdo atual para determinar se precisamos adicionar uma quebra de linha
-        $content = file_get_contents('favorites.txt');
+        $content = file_get_contents(FAVORITES_FILE);
         
         // Se o arquivo não estiver vazio e não terminar com uma quebra de linha, adicionamos uma
         if (!empty($content) && substr($content, -1) !== "\n") {
@@ -34,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $newLine = $name . "," . $url;
         }
         
-        if (file_put_contents('favorites.txt', $newLine, FILE_APPEND) !== false) {
+        if (file_put_contents(FAVORITES_FILE, $newLine, FILE_APPEND | LOCK_EX) !== false) {
             echo json_encode(['success' => true]);
         } else {
             echo json_encode(['success' => false, 'error' => 'Erro ao salvar no arquivo']);
